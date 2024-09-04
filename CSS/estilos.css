@@ -1,0 +1,39 @@
+.div1 {
+  width: 50px;
+  height: 75px;
+  color: red;
+  background-color: rgb(40, 176, 234);
+}
+
+.div2 {
+  width: 150px;
+  height: 175px;
+  color: orange;
+  background-color: green;
+}
+
+/*div h1{
+color:green;
+
+//O
+}*/
+div h1 {
+  color: green;
+}
+div h2 {
+  color: orange;
+}
+div h3 {
+  color: gold;
+}
+
+h1 {
+  color: yellow;
+  border: 10px dashed red;
+}
+
+body {
+  background-color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */

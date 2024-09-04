@@ -1,0 +1,22 @@
+@import "variables"; //importar un scss con guion bajo para no tomarlo en cuentas pero ala hora no hay que poner guion bajo ni la extension
+@import "mixins";
+@import "divs";
+@import "nesting";
+
+h1 {
+    color: $rojo;
+    border: $borde;
+}
+
+body {
+    @if $sexo =="hombre" {
+        background-color: white;
+    }
+
+    @else {
+        background-color: pink;
+    }
+}
+
+//sass ./SCSS/estilos.scss ./CSS/estilos.css
+//-w espera los cambios del scss 

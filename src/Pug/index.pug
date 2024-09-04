@@ -1,0 +1,19 @@
+doctype html
+html
+    head 
+        title Ejemplo pug avanzado 
+    body 
+        h1 encabezado de prueba 
+        p.alert. 
+            !Hola
+            mundo 
+            como 
+            estas¡
+        ol
+            //li opción 1
+            //li opción 2
+            //li opción 3
+            each item in ["Opción 1","Opción 2", "Opción 3"]
+                li #{item}
+        include condiciones
+        include tabla

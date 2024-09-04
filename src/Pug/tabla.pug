@@ -1,0 +1,12 @@
+table#tblAlumnos(style = "border : 9px solid red")
+    thead 
+        tr 
+            th No Control 
+            th Nombre 
+            th Carrera 
+    tbody
+        each alumnos in [{nc:"15",alumno:"Paco",C:"IM"},{nc:"12",alumno:"Hugo",C:"ISC"}]
+            tr 
+                td #{alumnos.nc}
+                td #{alumnos.alumno}
+                td #{alumnos.C}
